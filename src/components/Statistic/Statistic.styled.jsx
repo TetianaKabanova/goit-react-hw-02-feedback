@@ -6,17 +6,19 @@ export const StatisticList = styled.ul`
   margin: 0 auto;
   border-radius: 4px;
   box-shadow: -1px -1px 1px #fff, 1px 1px 1px #babecc;
-  background-color: ${props => props.theme.colors.white};
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  list-style: none;
 `;
 
 export const DescrStatistic = styled.p`
   display: flex;
   align-items: center;
-  gap: ${p => p.theme.space[4]}px;
-
-  margin: ${p => p.theme.space[3]};
-  padding-top: ${p => p.theme.space[3]}px;
-  padding-bottom: ${p => p.theme.space[3]}px;
-  padding-left: ${p => p.theme.space[4]}px;
-  padding-right: ${p => p.theme.space[4]}px;
+  gap: 4px;
 `;

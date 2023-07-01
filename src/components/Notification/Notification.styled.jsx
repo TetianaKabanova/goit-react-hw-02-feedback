@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const Paragraf = styled.h2`
-  color: ${p => p.theme.colors.orange};
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 10px;
   text-align: center;
-  margin-bottom: ${p => p.theme.space[4]}px;
 `;
