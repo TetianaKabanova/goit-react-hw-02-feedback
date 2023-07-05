@@ -21,4 +21,5 @@ export const DescrStatistic = styled.p`
   display: flex;
   align-items: center;
   gap: 4px;
+  color: '#007bff';
 `;
